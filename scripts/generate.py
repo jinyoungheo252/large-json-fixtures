@@ -21,7 +21,7 @@ OUT = ROOT / "out"
 API = ROOT / "api"
 
 # 규모 → 행 수. 크기는 행당 ~500B 기준.
-SIZES = {"S": 1_000, "M": 10_000, "L": 100_000, "XL": 500_000}
+SIZES = {"S": 1_000, "M": 10_000, "L": 50_000, "XL": 500_000}
 
 REPO = "large-json-fixtures"
 HEX = "0123456789abcdef"
